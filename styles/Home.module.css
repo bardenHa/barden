@@ -1,0 +1,46 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.linksContainer {
+  color: gray;
+  padding-top: 2rem;
+}
+
+.linksContainer a {
+  margin-right: 0.75rem;
+}
+
+.linksContainer a:hover,
+.linksContainer a:focus,
+.linksContainer a:active {
+  color: white;
+}
+
+.title {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 4rem;
+  }
+}
+
+.subtitle {
+  margin: 0;
+  padding-top: 0.5rem;
+  font-weight: 400;
+  color: #0398fc;
+}
